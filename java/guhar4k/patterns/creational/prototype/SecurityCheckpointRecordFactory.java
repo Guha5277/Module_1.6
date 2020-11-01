@@ -7,10 +7,6 @@ public class SecurityCheckpointRecordFactory {
         this.record = record;
     }
 
-    public void setRecord(SecurityCheckpointRecord record) {
-        this.record = record;
-    }
-
     public SecurityCheckpointRecord copy(){
         return (SecurityCheckpointRecord) record.copy();
     }

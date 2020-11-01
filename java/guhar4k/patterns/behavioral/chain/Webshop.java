@@ -6,7 +6,7 @@ public class Webshop extends SimpleOrderHandler {
         boolean isOrderPaid = order.isOrderPaid();
 
         if (isOrderPaid) {
-            System.out.println("Webshop order handled succesful: " + order.getProduct());
+            System.out.println("Webshop handled the order succesful: " + order.getProduct());
             return true;
         } else {
             System.out.println("Failed to proceed the Webshop order. The order was not paid: " + order.getProduct());

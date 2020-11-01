@@ -3,7 +3,7 @@ package guhar4k.patterns.behavioral.chain;
 public class WebshopManager extends SimpleOrderHandler{
     @Override
     boolean handle(Order order) {
-        System.out.print("Manager order handling succesful. ");
+        System.out.print("Manager handled the order  successful. ");
         boolean isNeedToDelivery = order.isNeedForDelivery();
 
         if (isNeedToDelivery){
